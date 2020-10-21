@@ -79,5 +79,16 @@
           
               }?>
           </div>
+          <div class="game" id="game">
+              <p>Click number in unused section to mark as used</p>
+              <p>Click Number in used section to mark as unused</p>
+              <p>Click reset to make all number unused</p>
+
+              <button id="begin" class="begin">Begin</button>
+
+
+       
+          </div>
+          <script src="./js/script.js"></script>
 </body>
 </html>
