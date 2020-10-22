@@ -25,6 +25,8 @@
           
           $unusedList=[];
           $usedList=[];
+
+          
           foreach($allNumbers as $num){
               if($num["available"]=="true" or $num["available"]){
               array_push($unusedList, (int)$num["num"]);
