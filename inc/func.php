@@ -93,3 +93,19 @@ function toggleAvailability($db,$num){
 
 }
 
+
+// function to reset numbersto unused
+
+function resetAll($db){
+    $sql= "UPDATE allnumbers
+    SET available = true WHERE available=false";
+    
+    try{
+        $stmt= $db->prepare($sql);
+        $stmt->execute();
+    }
+    catch(Exception $e){
+        echo "couldnnt reset values";
+    }
+    
+}

@@ -12,4 +12,4 @@ $number =(int)$_GET["value"];
 toggleAvailability($conn,$number);
 
 
-header("Location:./index.php");
+header("Location:./index.php?modal=false");

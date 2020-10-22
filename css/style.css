@@ -31,6 +31,7 @@ ul{
     padding: .5rem;
 }
  li{
+     font-size: 2.5rem;
     border:1px solid black;
     padding: .5rem;
     transition: .4s;
@@ -74,4 +75,8 @@ li:hover{
 .begin:hover{
     cursor: pointer;
     color:gray;
+}
+
+a{
+    text-decoration: none;
 }

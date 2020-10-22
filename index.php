@@ -39,7 +39,7 @@
           ?>
             <div class="controlls">
                 <p>Unused</p>
-               <button>RESET</button>
+               <button><a href="./reset.php">RESET</a></button>
                
                
             </div>
@@ -79,16 +79,18 @@
           
               }?>
           </div>
+          <?php if(!isset($_GET["modal"])){?>
           <div class="game" id="game">
               <p>Click number in unused section to mark as used</p>
-              <p>Click Number in used section to mark as unused</p>
+              <p>Click number in used section to mark as unused</p>
               <p>Click reset to make all number unused</p>
 
               <button id="begin" class="begin">Begin</button>
-
+              
 
        
           </div>
+          <?php } ?>
           <script src="./js/script.js"></script>
 </body>
 </html>
