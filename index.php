@@ -40,7 +40,7 @@
           
           ?>
             <div class="controlls">
-                <p>Unused</p>
+                <p>Unused Numbers</p>
                <button><a href="./reset.php">RESET</a></button>
                
                
@@ -63,7 +63,7 @@
               }?>
           </div>
           <div class="used">
-          <p>Used</p>
+          <p>Used Numbers</p>
            
           <?php 
           if(!empty($usedList)){ ?>

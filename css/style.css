@@ -80,3 +80,15 @@ li:hover{
 a{
     text-decoration: none;
 }
+
+
+
+
+.controlls p, .used p{
+    font-size: 3rem;
+    color:darkslategrey;
+}
+
+.used{
+    margin-top: 1.5rem;
+}
